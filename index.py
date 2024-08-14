@@ -130,7 +130,7 @@ with col1:
     st.write(' ')
 
 with col2:
-    st.image(image="./Cimplify.AI Logo Header.png")
+    st.image(image="./Cimplify.AI Logo Header.svg")
 
 with col3:
     st.write(' ')
@@ -151,8 +151,8 @@ if st.session_state.get("section") != selected_slug:
     st.query_params.section=selected_slug
 
 if  st.session_state.section == "v1":
-    st.title('Q & A with a Dataset')    
-    st.caption("powered by cimba")
+    st.title('Q & A with a Dataset')
+        
 
     pathDict = {
         "Indian food" : "files/indian_food.csv",
